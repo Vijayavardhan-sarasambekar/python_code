@@ -1,0 +1,2 @@
+sachin Tendulkar,sachin.jpj,https://www.cricbuzz.com/profiles/25/sachin-tendulkar
+virat kohli,virat.jpg,https://www.cricbuzz.com/profiles/1413/virat-kohli
