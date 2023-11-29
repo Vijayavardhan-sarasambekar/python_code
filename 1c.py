@@ -1,3 +1,5 @@
+# c) Take Input Parameters from a file called in.txt having 5 and 30 in first and second line. Your program should read the first two lines of this file and print Mathematical Tables from 5 to 30.
+
 with open("in.txt","r") as file:
     start=int(file.readline())
     print(start)
