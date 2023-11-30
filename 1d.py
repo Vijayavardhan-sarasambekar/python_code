@@ -7,14 +7,17 @@
 #     print(end)
 
 # with open("")
-start=open("input.txt","r")
+start=open("input1d.txt","r")
 end=open("out.txt","w")
 
-f1=start.split(',')
-for num in f1:
-    end.write(num+'\n')
+# word1=start.readline()
+# word2=start.readline()
+# print(word1)
+# print(word2)
+# end.write(word1+"\n")
+# end.write(word2)
 
-start.close()
-end.close()
-
-
+for line in start:
+    numbers=line.strip().split(",")
+    for number in numbers:
+        end.write(number+"\n")
