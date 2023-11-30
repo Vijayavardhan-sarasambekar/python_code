@@ -2,8 +2,15 @@
 start=int(input("Enter number frrom 3:"))
 end=int(input("Enter the number:"))
 
+file=open("out1b.txt","w")
 for i in range(start,end+1):
     print("---------------------------")
+    file.write("---------------------------"+"\n")
     for j in range(1,11):
-        result=i*j
-        print(f"{i}*{j}={result}")
+        r=i*j
+        i1=str(i)
+        j1=str(j)
+        result=str(r)
+        print(i1+"*"+j1+"="+result)
+        file.write(i1+"*"+j1+"="+result+"\n")
+file.close()       
